@@ -230,18 +230,18 @@
     </sap:WorkflowViewStateService.ViewState>
     <State x:Name="__ReferenceID7" sap2010:Annotation.AnnotationText="" DisplayName="Grab Assets from orchestrator" sap:VirtualizedContainerService.HintSize="217.33333333333334,100" sap2010:WorkflowViewState.IdRef="State_1">
       <State.Entry>
-        <Sequence sap:VirtualizedContainerService.HintSize="496,371.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence sap:VirtualizedContainerService.HintSize="496,372.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Jobsites" CacheStrategy="None" DisplayName="Get Asset" FolderPath="totojoesullivan@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="434,176" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+          <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Jobsites" CacheStrategy="None" DisplayName="Get Asset" FolderPath="totojoesullivan@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="434,176.66666666666666" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
             <ui:GetRobotAsset.Value>
               <OutArgument x:TypeArguments="x:String">[Jobsites]</OutArgument>
             </ui:GetRobotAsset.Value>
           </ui:GetRobotAsset>
-          <Assign sap:VirtualizedContainerService.HintSize="434,107.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_1">
             <Assign.To>
               <OutArgument x:TypeArguments="s:String[]">[Out_Jobsites]</OutArgument>
             </Assign.To>
@@ -262,26 +262,26 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <State.Exit>
-        <Sequence sap:VirtualizedContainerService.HintSize="512,551.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence sap:VirtualizedContainerService.HintSize="512,553.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="450,123.33333333333333" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="heres the list of jobsites" />
-          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="450,340" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Out_Jobsites]">
+          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="450,124" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="heres the list of jobsites" />
+          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="450,341.3333333333333" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Out_Jobsites]">
             <ui:ForEach.Body>
               <ActivityAction x:TypeArguments="x:String">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,202" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,202.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[currentText]" />
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,114.66666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[currentText]" />
                 </Sequence>
               </ActivityAction>
             </ui:ForEach.Body>
@@ -491,6 +491,18 @@
                     </State>
                   </Transition.To>
                 </Transition>
+                <Transition DisplayName="T4" sap2010:WorkflowViewState.IdRef="Transition_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <av:PointCollection x:Key="ConnectorLocation">743,115 743,115</av:PointCollection>
+                      <x:Int32 x:Key="SrcConnectionPointIndex">42</x:Int32>
+                      <x:Int32 x:Key="DestConnectionPointIndex">42</x:Int32>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Transition.To>
+                    <x:Reference>__ReferenceID0</x:Reference>
+                  </Transition.To>
+                </Transition>
               </State.Transitions>
             </State>
           </Transition.To>
@@ -559,7 +571,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <Transition.To>
-            <State x:Name="__ReferenceID6" DisplayName="Push Queue to Orchestrator" sap:VirtualizedContainerService.HintSize="380.6666666666667,544.6666666666666" sap2010:WorkflowViewState.IdRef="State_9">
+            <State x:Name="__ReferenceID6" DisplayName="Push Queue to Orchestrator" sap:VirtualizedContainerService.HintSize="153.33333333333334,60.666666666666664" sap2010:WorkflowViewState.IdRef="State_9">
               <State.Entry>
                 <ui:BulkAddQueueItems TimeoutMS="{x:Null}" DisplayName="Bulk Add Queue Items" FolderPath="totojoesullivan@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="334,197.33333333333334" sap2010:WorkflowViewState.IdRef="BulkAddQueueItems_1" QueueItemsDataTable="[dt_Jobsites]" QueueName="Jobsite Queue" />
               </State.Entry>
