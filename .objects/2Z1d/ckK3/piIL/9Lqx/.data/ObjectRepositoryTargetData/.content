@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RQtWddoOxUSCvmevdiC2Hg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uk.indeed.com/" CVScreenId="f1b3ee13-8ed5-45e6-b0cc-70c9c027902b" CvTextArea="796, 361, 185, 28" CvTextArgument="City or postcode" CvType="Text" DesignTimeRectangle="793, 327, 421, 90" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='text-input-where' tag='INPUT' type='text' class='css-p1lp5i e1jgz0i3' placeholder='City or postcode' aaname='' /&gt;" Guid="f33de305-71df-418a-98b0-3dfc33c75f09" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Job Search | Indeed' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="718, 371, 77, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='&amp;amp;nbsp;' parentid='jobsearch' tag='SPAN' type='' class='' check:innerText='&amp;amp;nbsp;' /&gt;" Guid="c6e45975-6e6e-465c-9f85-f7aa62392f4b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e62a86c68782e3f04d39b5056fd75697.png" xmlns="">0FLrw5xbYo02oI-zYuFdHfQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

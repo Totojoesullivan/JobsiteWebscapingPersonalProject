@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Job title, keyword or company text box",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "hw228_w45UiQQsQn-1idQA",
+  "Reference": "3WIBySAE50WB1TqAqXmNUg/hw228_w45UiQQsQn-1idQA",
+  "ParentRef": "3WIBySAE50WB1TqAqXmNUg/piILFPfA5kuAGIVS1ZwFqw",
+  "Created": "2024-09-16T15:00:28.809022Z",
+  "Updated": "2024-09-16T15:00:55.3515604Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

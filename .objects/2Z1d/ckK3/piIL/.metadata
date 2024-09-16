@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Chrome: Indeed Homepage",
+  "Type": "Screen",
+  "Id": "piILFPfA5kuAGIVS1ZwFqw",
+  "Reference": "3WIBySAE50WB1TqAqXmNUg/piILFPfA5kuAGIVS1ZwFqw",
+  "ParentRef": "3WIBySAE50WB1TqAqXmNUg/ckK3aG9J0kqb5DQ60Xlxng",
+  "Created": "2024-09-16T14:54:26.9105788Z",
+  "Updated": "2024-09-16T14:55:27.225889Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
